@@ -1,5 +1,5 @@
 # 👋 `hello-astro`
-
+[Take a look at the demo](https://hello-astro.vercel.app/)
 This is a component that returns a random greeting in a random language...nothing more.
 
 ## ✨ Usage

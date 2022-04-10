@@ -1,11 +1,14 @@
 {
   "name": "hello-astro",
   "description": "An Astro component that returns a random greeting in a random language",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "icon": "./assets/logo.png",
   "author": {
     "name": "Pukima",
     "email": "pukima@pukima.site"
   },
+  "bugs": "https://github.com/Pukimaa/hello-astro/issues",
+  "homepage": "https://hello-astro.vercel.app/",
   "license": "MIT",
   "repository": {
     "type": "git",
