@@ -1,8 +1,18 @@
-# `HelloAstro` Component
+# 👋 `hello-astro`
 
-This is a component that returns a random greeting...nothing more.
+This is a component that returns a random greeting in a random language...nothing more.
 
-### ❌ Something's missing or wrong?
+## ✨ Usage
+```js
+---
+import { HelloAstro } from "hello-astro";
+---
+<h3>This is a random greeting:</h3>
+<h1><Component.HelloAstro /></h1>
+
+```
+Please note that there is no element surrounding the greeting so you need to add one yourself
+## ❌ Something's missing or wrong?
 Please create a PR and follow these rules:
 - The translation should be just "Hello"
 - It should be the informal hello
