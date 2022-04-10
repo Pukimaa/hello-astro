@@ -1,0 +1,14 @@
+{
+  "name": "hello-astro-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "hello-astro": "workspace:*",
+    "astro": "^1.0.0-beta.5"
+  }
+}

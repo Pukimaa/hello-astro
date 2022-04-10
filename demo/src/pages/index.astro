@@ -1,0 +1,41 @@
+---
+import * as Component from '../../../src/index';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="logo.png" />
+		<title>Demo - hello-astro</title>
+		<style is:global>
+			body {
+				color: #fff;
+				background-color: #333;
+				font-weight: bold;
+				font-family: sans-serif;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			h1, h3 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			img {
+				margin-left: -2rem;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<img src="logo.png" alt="logo" />
+		<h3>This is a random greeting:</h3>
+		<h1><Component.HelloAstro /></h1>
+	</body>
+</html>
