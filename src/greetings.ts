@@ -89,4 +89,5 @@ export const greetings: string[] = [
     "Dumela", // Tswana
     "Allianchu", // Quechua
     "Molweni", // Xhosa
+    "Moin", // Northern German
 ]
