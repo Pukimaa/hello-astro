@@ -21,9 +21,19 @@
   "scripts": {
     "start": "astro --root demo dev",
     "build": "astro --root demo build",
-    "serve": "astro --root demo preview"
+    "serve": "astro --root demo preview",
+    "commit": "cz",
+    "release": "standard-version"
   },
   "devDependencies": {
-    "astro": "^1.0.0-beta.5"
+    "astro": "^1.0.0-beta.5",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
