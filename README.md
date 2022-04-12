@@ -9,7 +9,7 @@ This is a component that returns a random greeting in a random language...nothin
 import { HelloAstro } from "hello-astro";
 ---
 <h3>This is a random greeting:</h3>
-<h1>HelloAstro /></h1>
+<h1><HelloAstro /></h1>
 
 ```
 Please note that there is no element surrounding the greeting so you need to add one yourself
