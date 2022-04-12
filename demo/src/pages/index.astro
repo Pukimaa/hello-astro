@@ -1,5 +1,5 @@
 ---
-import * as Component from '../../../src/index';
+import HelloAstro from '../../../src/HelloAstro.astro';
 ---
 
 <html lang="en">
@@ -20,14 +20,14 @@ import * as Component from '../../../src/index';
 				transform: translate(-50%, -50%);
 			}
 
-			h1, h3 {
+			h1, h3, img {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 			}
 
 			img {
-				margin-left: -2rem;
+				margin-left: -1.75rem;
 			}
 
 		</style>
@@ -36,6 +36,6 @@ import * as Component from '../../../src/index';
 	<body>
 		<img src="logo.png" alt="logo" />
 		<h3>This is a random greeting:</h3>
-		<h1><Component.HelloAstro /></h1>
+		<h1><HelloAstro /></h1>
 	</body>
 </html>

@@ -1,5 +1,8 @@
 ---
-import { greetings } from './greetings.ts';
-const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+import { greetings } from './greetings';
 ---
-{greeting}
+<span id="greetingWrapper" />
+<script rel="text/javascript" define:vars={{greetings}}>
+    const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+    document.querySelector('#greetingWrapper').innerHTML = greeting;
+</script>
