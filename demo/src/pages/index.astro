@@ -20,16 +20,24 @@ import HelloAstro from '../../../src/HelloAstro.astro';
 				transform: translate(-50%, -50%);
 			}
 
-			h1, h3, img {
-				display: flex;
-				justify-content: center;
+			img, h1, h3, a {
+				text-align: center;
+				display: grid;
 				align-items: center;
 			}
 
 			img {
-				margin-left: -1.75rem;
+				margin-left: auto;
+				margin-right: 1.75rem;
 			}
 
+			a {
+				color: #fff;
+				text-decoration: none;
+				background-color: #ff5d01;
+				padding: 12px;
+				border-radius: 3px;
+			}
 		</style>
 	</head>
 
@@ -37,5 +45,6 @@ import HelloAstro from '../../../src/HelloAstro.astro';
 		<img src="logo.png" alt="logo" />
 		<h3>This is a random greeting:</h3>
 		<h1><HelloAstro /></h1>
+		<a href="https://www.npmjs.com/package/hello-astro">View it on npm</a>
 	</body>
 </html>
