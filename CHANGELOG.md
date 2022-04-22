@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Pukimaa/hello-astro/compare/v1.1.4...v1.2.0) (2022-04-22)
+
+
+### Features
+
+* adding fallback in case something goes wrong (default: Hello) ([2536b79](https://github.com/Pukimaa/hello-astro/commit/2536b792c8c78b7d8eda6473fe6afd3fff3b7eff))
+
 ### [1.1.4](https://github.com/Pukimaa/hello-astro/compare/v1.1.3...v1.1.4) (2022-04-12)
 
 
