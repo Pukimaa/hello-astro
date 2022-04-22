@@ -37,6 +37,18 @@ import HelloAstro from '../../../src/HelloAstro.astro';
 				background-color: #ff5d01;
 				padding: 12px;
 				border-radius: 3px;
+				transition: background-color;
+				transition-duration: .5s;
+				transition-timing-function: ease;
+			}
+
+			a:hover {
+				background-color: #fd8037;
+			}
+
+			a:active, a:focus {
+				background-color: #fd8037;
+				border: #fff 3px solid;
 			}
 		</style>
 	</head>
