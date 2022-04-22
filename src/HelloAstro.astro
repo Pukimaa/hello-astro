@@ -1,7 +1,7 @@
 ---
 import { greetings } from './greetings';
 ---
-<span id="greetingWrapper" />
+<span id="greetingWrapper">Hello</span>
 <script rel="text/javascript" define:vars={{greetings}}>
     const greeting = greetings[Math.floor(Math.random() * greetings.length)];
     document.querySelector('#greetingWrapper').innerHTML = greeting;
