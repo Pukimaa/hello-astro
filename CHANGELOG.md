@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/Pukimaa/hello-astro/compare/v1.2.0...v1.2.1) (2022-04-22)
+
+
+### Features
+
+* added view it on npm button and fixed wrong image alignment ([e7bbbcf](https://github.com/Pukimaa/hello-astro/commit/e7bbbcf5c25149e121a718ff24ae160520b5314b))
+
 ## [1.2.0](https://github.com/Pukimaa/hello-astro/compare/v1.1.4...v1.2.0) (2022-04-22)
 
 

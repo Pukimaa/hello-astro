@@ -1,7 +1,7 @@
 {
   "name": "hello-astro",
   "description": "An Astro component that returns a random greeting in a random language",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "Pukima",
     "email": "pukima@pukima.site"
